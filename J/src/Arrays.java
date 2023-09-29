@@ -4,9 +4,12 @@ public class Arrays {
         marks[0]=65;//maths
         marks[1]=75;//english
         marks[2]=95;//hindi
-        System.out.println(marks[1]);
-        System.out.println(marks[0]);
-        System.out.println(marks[2]);
+//        System.out.println(marks[1]);
+//        System.out.println(marks[0]);
+//        System.out.println(marks[2]);
+        for (int i=0; i<3;i++){
+            System.out.println(marks[i]);
+        }
 
     }
 }
